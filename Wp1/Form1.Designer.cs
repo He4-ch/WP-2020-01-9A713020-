@@ -44,6 +44,7 @@ namespace Wp1
             this.go.TabIndex = 0;
             this.go.Text = "查詢";
             this.go.UseVisualStyleBackColor = true;
+            this.go.Click += new System.EventHandler(this.go_Click);
             // 
             // lb1
             // 
