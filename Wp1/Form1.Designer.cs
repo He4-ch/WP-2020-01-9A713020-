@@ -33,6 +33,7 @@ namespace Wp1
             this.lb1 = new System.Windows.Forms.Label();
             this.tB1 = new System.Windows.Forms.TextBox();
             this.pB1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pB1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,7 +60,7 @@ namespace Wp1
             // tB1
             // 
             this.tB1.Font = new System.Drawing.Font("新細明體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tB1.Location = new System.Drawing.Point(20, 50);
+            this.tB1.Location = new System.Drawing.Point(80, 50);
             this.tB1.Name = "tB1";
             this.tB1.Size = new System.Drawing.Size(100, 30);
             this.tB1.TabIndex = 2;
@@ -68,15 +69,26 @@ namespace Wp1
             // 
             this.pB1.Location = new System.Drawing.Point(50, 100);
             this.pB1.Name = "pB1";
-            this.pB1.Size = new System.Drawing.Size(250, 250);
+            this.pB1.Size = new System.Drawing.Size(139, 219);
+            this.pB1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pB1.TabIndex = 3;
             this.pB1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(11, 65);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 12);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "月份輸入";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 361);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pB1);
             this.Controls.Add(this.tB1);
             this.Controls.Add(this.lb1);
@@ -95,6 +107,7 @@ namespace Wp1
         private System.Windows.Forms.Label lb1;
         private System.Windows.Forms.TextBox tB1;
         private System.Windows.Forms.PictureBox pB1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
